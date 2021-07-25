@@ -35,7 +35,23 @@ const CenterElementHome = () => {
             {/* style={{background:"#FDEBD0"}} */}
             <div style={{height:"278px"}} className="mt-3 bg-primary shadow-2xl rounded-lg"><div className="flex items-center justify-center h-full">
                     <div className="pl-5 w-4/6 flex flex-col">
-                        Total Projects
+                        {/* Total Projects */}
+                        <h1 style={{marginTop:"40px", fontSize:"30px",}}>
+                            <span>T</span>
+                            <span>o</span>
+                            <span>t</span>
+                            <span>a</span>
+                            <span>l</span>
+                            <span>&nbsp; </span> <span>&nbsp; </span>
+                            <span>P</span>
+                            <span>r</span>
+                            <span>o</span>
+                            <span>j</span>
+                            <span>e</span>
+                            <span>c</span>
+                            <span>t</span>
+                            <span>s</span>
+                            </h1>
                         <div className="text-6xl md:text-7xl lg:text-8xl text-white font-bold">
                             <h1 style={{marginTop:"40px"}}>
                             <span>5</span>
@@ -62,7 +78,7 @@ const CenterElementHome = () => {
                         <div className="text-xs pt-1 pb-2">
                             Lorem ipsum dolor sit.
                         </div>
-                        <div className="bg-primary cursor-pointer hover:text-primary hover:bg-white border border-primary trans text-white flex justify-center text-sm py-1 w-full rounded-3xl">
+                        <div className="animate-bounce bg-primary cursor-pointer hover:text-primary hover:bg-white border border-primary trans text-white flex justify-center text-sm py-1 w-full rounded-3xl">
                             More Details
                         </div>
                     </div>
@@ -71,7 +87,7 @@ const CenterElementHome = () => {
                         <div className="text-xs pt-1 pb-2">
                             Lorem ipsum dolor sit.
                         </div>
-                        <div className="bg-primary cursor-pointer hover:text-primary hover:bg-white border border-primary trans text-white flex justify-center text-sm py-1 w-full rounded-3xl">
+                        <div className="animate-bounce bg-primary cursor-pointer hover:text-primary hover:bg-white border border-primary trans text-white flex justify-center text-sm py-1 w-full rounded-3xl">
                             More Details
                         </div>
                     </div>
