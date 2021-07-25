@@ -12,7 +12,7 @@ const Home = () => {
         <>
         {toggle ?<Dropdown toggle={toggle} setToggle={setToggle}/>:""}
         
-        <div className="flex py-5 px-5 lg:px-10 bg-background">
+        <div className="SclFont flex py-5 px-5 lg:px-10 bg-background">
 
             <div className="hidden lg:inline bg-secondary w-10 h-screen text-white rounded-xl" style={{width:"295px"}}>
                 <LeftSideHome/>   

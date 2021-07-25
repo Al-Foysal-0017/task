@@ -14,7 +14,7 @@ const AddProject = () => {
         
         <div className="flex py-5 px-5 lg:px-10 bg-background">
 
-            <div className="hidden lg:inline bg-secondary w-10 h-screen text-white rounded-xl" style={{width:"295px"}}>
+            <div className="SclFont hidden lg:inline bg-secondary w-10 h-screen text-white rounded-xl" style={{width:"295px"}}>
                 <LeftSideHome/>   
             </div>
 
@@ -37,7 +37,7 @@ const AddProject = () => {
                     </div>
                 </div>
 
-                <div className="lg:pr-0 mt-5 flex flex-col md:flex-row justify-between">
+                <div className="mb-16 lg:pr-0 mt-5 flex flex-col md:flex-row justify-between">
                     <div className="mt-3 pl-0 lg:pl-5 w-full">
                        <div className="flex flex-col sm:flex-row">
                            <BottomAddProject/>

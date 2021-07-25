@@ -1,7 +1,6 @@
 import React from 'react'
 import { IoSearch } from 'react-icons/io5';
 import { RiCake3Fill } from 'react-icons/ri';
-import { CgNotifications } from 'react-icons/cg';
 import { FaBars, FaRegBell } from 'react-icons/fa';
 import {Link} from 'react-router-dom'
 import {useLocation} from 'react-router-dom'
@@ -14,7 +13,7 @@ const Topbar = ({toggle, setToggle}) => {
                     {(pathname==="/" || pathname==="/add-project" || pathname==="/add-session") &&
                         <div className="pl-0 lg:pl-5 col-start-1 col-end-4 md:col-start-1 md:col-end-2">
                             <div className="text-sm tracking-wide">Welcome</div>
-                            <div className="font-semibold tracking-wide">
+                            <div className="font-semibold tracking-widest">
                                 Maisam Ali
                             </div>
                         </div>

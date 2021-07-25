@@ -1,6 +1,5 @@
 import React from 'react'
 import { RiCake3Fill } from 'react-icons/ri';
-import { CgNotifications } from 'react-icons/cg';
 import {FaRegBell } from 'react-icons/fa';
 import { FaBars } from 'react-icons/fa';
 import {Link} from 'react-router-dom'

@@ -12,21 +12,54 @@ const RightSideHome = () => {
             </div>
             <div className="flex justify-center mt-1">
                 <div className="h-full rounded-lg flex justify-center items-center flex-col" style={{background:"#FADBD8", width:"147px", height:"93px"}}>
-                    <div className="">190+</div>
-                    <div className="text-xs">Project sold</div>
+                    <div className="">
+                        {/* 190+ */}
+                        <h1>
+                            <span>1</span>
+                            <span>9</span>
+                            <span>0</span>
+                            <span>+</span>
+                        </h1>
+                    </div>
+                    <div className="text-xs">
+                        Project sold
+                    </div>
                     </div>
                     <div className="ml-1 h-full rounded-lg flex justify-center items-center flex-col" style={{background:"#FDEBD0", width:"147px", height:"93px"}}>
-                        <div className="">500+</div>
+                        <div className="">
+                            {/* 500+ */}
+                            <h1>
+                            <span>5</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>+</span>
+                        </h1>
+                        </div>
                         <div className="text-xs">All Project</div>
                     </div>
             </div>
             <div className="flex justify-center mt-1">
                 <div className="h-full rounded-lg flex justify-center items-center flex-col" style={{background:"#F2F3F4", width:"147px", height:"93px"}}>
-                    <div className="">300+</div>
+                    <div className="">
+                        {/* 300+ */}
+                        <h1>
+                            <span>3</span>
+                            <span>0</span>
+                            <span>0</span>
+                            <span>+</span>
+                        </h1>
+                    </div>
                     <div className="text-xs">Project delievered</div>
                 </div>
                 <div className="ml-1 h-full rounded-lg flex justify-center items-center flex-col" style={{background:"#FADBD8", width:"147px", height:"93px"}}>
-                    <div className="">10+</div>
+                    <div className="">
+                        {/* 10+ */}
+                        <h1>
+                            <span>1</span>
+                            <span>0</span>
+                            <span>+</span>
+                        </h1>
+                    </div>
                     <div className="text-xs">Ongoing Project</div>
                 </div>
             </div>
